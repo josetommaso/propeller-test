@@ -6,7 +6,7 @@ import TextTruncate from "react-text-truncate";
 
 const New = ({ item }) => {
   return (
-    <Col md={6} lg={4} className="mb-3">
+    <Col md={6} lg={4} className="mb-4">
       <Card className="h-100">
         <Card.Img variant="top" src={item.urlToImage} />
         <Card.Body className="d-flex flex-column justify-content-between align-items-start">
