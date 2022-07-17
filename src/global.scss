@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+$tertiary: #d8d8d8;
+
+.card {
+  overflow: hidden;
+  .card-img-top {
+    height: 200px;
+    transition: 0.5s ease-in-out;
+    object-fit: cover;
+  }
+  &:hover {
+    .card-img-top {
+      transform: scale(1.05);
+    }
+  }
+  .card-body {
+    z-index: 2;
+    background-color: $tertiary;
+  }
+}
