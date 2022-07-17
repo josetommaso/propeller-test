@@ -10,7 +10,7 @@ function App() {
     <>
       <Header title="Propeller Latest News" />
       <NewsProvider>
-        <div className="container">
+        <div className="container px-lg-5">
           <SearchForm />
           <NewsList />
         </div>
