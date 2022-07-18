@@ -24,7 +24,7 @@ const SearchForm = () => {
   };
 
   return (
-    <div className="row mt-5">
+    <div className="row my-5 py-5 form-row">
       <div className="col-md-6 offset-md-3">
         <Form onSubmit={searchNewsSubmit} className="d-flex">
           <Form.Select
@@ -37,7 +37,11 @@ const SearchForm = () => {
               </option>
             ))}
           </Form.Select>
-          <Button type="submit" variant="primary" className="ms-2">
+          <Button
+            type="submit"
+            variant="quaternary"
+            className="ms-2 text-uppercase"
+          >
             Search
           </Button>
         </Form>

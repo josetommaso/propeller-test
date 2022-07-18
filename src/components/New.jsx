@@ -7,7 +7,7 @@ import TextTruncate from "react-text-truncate";
 const New = ({ item }) => {
   return (
     <Col md={6} lg={4} className="mb-4">
-      <Card className="h-100">
+      <Card className="h-100 shadow">
         <Card.Img variant="top" src={item.urlToImage} />
         <Card.Body className="d-flex flex-column justify-content-between align-items-start">
           <div>
@@ -27,9 +27,10 @@ const New = ({ item }) => {
             />
           </div>
           <Button
-            className="btn-secondary stretched-link"
+            className="btn-secondary stretched-link ms-auto"
             href={item.url}
             target="_blank"
+            variant="quaternary"
           >
             Read More
           </Button>

@@ -7,7 +7,7 @@ import { NewsProvider } from "./context/newsProvider";
 
 function App() {
   return (
-    <>
+    <div className="bg-tertiary h-100">
       <Header title="Propeller Latest News" />
       <NewsProvider>
         <div className="container px-lg-5">
@@ -15,7 +15,7 @@ function App() {
           <NewsList />
         </div>
       </NewsProvider>
-    </>
+    </div>
   );
 }
 

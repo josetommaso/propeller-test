@@ -1,4 +1,9 @@
-$tertiary: #d8d8d8;
+$theme-colors: (
+  "primary": #af9f8c,
+  "secondary": #7f867b,
+  "tertiary": #e3e4e0,
+  "quaternary": #c7c7bb,
+);
 
 * {
   margin: 0;
@@ -6,8 +11,8 @@ $tertiary: #d8d8d8;
   box-sizing: border-box;
 }
 
-#root {
-  background-color: azure;
+html {
+  background-color: #e3e4e0;
 }
 
 .card {
@@ -24,7 +29,7 @@ $tertiary: #d8d8d8;
   }
   .card-body {
     z-index: 2;
-    background-color: $tertiary;
+    // background-color: $tertiary;
   }
 }
 
@@ -35,3 +40,4 @@ $tertiary: #d8d8d8;
     }
   }
 }
+@import "bootstrap/scss/bootstrap.scss";
